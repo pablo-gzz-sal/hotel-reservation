@@ -1,3 +1,3 @@
 # hotel-reservation
 Created with CodeSandbox
-https://pablo-gzz-sal.github.io/csb-ro4pj/
+https://k3r2h.csb.app/
