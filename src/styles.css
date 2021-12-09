@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/**********************Mobile*******************/
+
+@media screen and (max-width: 750px) {
+  .App {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

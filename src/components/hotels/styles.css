@@ -1,0 +1,11 @@
+.results {
+  min-height: 100vh;
+  flex: 1;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hoteles {
+  margin: 30px;
+}

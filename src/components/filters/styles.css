@@ -1,0 +1,117 @@
+.filters {
+  width: 100%;
+  height: 55px;
+  background-color: #daf7a6;
+  font-size: 15px;
+}
+
+.filtersData {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.fromDateInput {
+  margin: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  appearance: none;
+}
+
+.toDateInput {
+  margin: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.countryFilterSelect {
+  margin: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.priceFilterSelect {
+  margin: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.sizeFilterSelect {
+  margin: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.resetButtonButton {
+  margin: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3c908f;
+  color: white;
+  font-weight: bold;
+}
+
+.resetButtonButton:hover {
+  cursor: pointer;
+  background-color: #962621;
+}
+
+.trashCan {
+  height: 15px;
+  color: white;
+}
+
+/**********************Mobile*******************/
+
+@media screen and (max-width: 750px) {
+  .filters {
+    height: 100%;
+  }
+
+  .filtersData {
+    flex-direction: column;
+  }
+
+  .fromDateInput {
+    height: 45px;
+    width: 90%;
+  }
+
+  .toDateInput {
+    height: 45px;
+    width: 90%;
+  }
+
+  .countryFilterSelect {
+    height: 45px;
+    width: 90%;
+  }
+
+  .priceFilterSelect {
+    height: 45px;
+    width: 90%;
+  }
+
+  .sizeFilterSelect {
+    height: 45px;
+    width: 90%;
+  }
+
+  .resetButtonButton {
+    height: 45px;
+    width: 90%;
+  }
+}
