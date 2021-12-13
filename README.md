@@ -1,3 +1,3 @@
 # hotel-reservation
 Created with CodeSandbox
-https://k3r2h.csb.app/
+https://csb-ro4pj.netlify.app/
